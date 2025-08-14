@@ -1,0 +1,519 @@
+{
+  "intents": [
+    {
+      "tag": "reminder",
+      "pattern": ["Remind me about meeting today at 18:00"],
+      "entities": [
+        {"word": "meeting", "label": "TOPIC"},
+        {"word": "today", "label": "DATE"},
+        {"word": "18:00", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Notify me about doordash in 15 minutes"],
+      "entities": [
+        {"word": "doordash", "label":  "TOPIC"},
+        {"word": "15", "label":  "TIME"},
+        {"word": "minutes", "label":  "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Remember that I go hiking with Jane 16.08 at 19:35"],
+      "entities": [
+        {"word": "hiking", "label": "TOPIC"},
+        {"word": "with", "label": "TOPIC"},
+        {"word": "Jane", "label": "TOPIC"},
+        {"word": "16.08", "label": "DATE"},
+        {"word": "19:35", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Remind about meeting with Jake tomorrow at 15"],
+      "entities": [
+        {"word": "meeting", "label": "TOPIC"},
+        {"word": "with", "label": "TOPIC"},
+        {"word": "Jake", "label": "TOPIC"},
+        {"word": "tomorrow", "label": "DATE"},
+        {"word": "15", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Set a reminder for dentist appointment on Monday at 09:00"],
+      "entities": [
+        {"word": "dentist", "label": "TOPIC"},
+        {"word": "appointment", "label": "TOPIC"},
+        {"word": "Monday", "label": "DATE"},
+        {"word": "09:00", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Remind me to call mom at 20:15"],
+      "entities": [
+        {"word": "call", "label": "TOPIC"},
+        {"word": "mom", "label": "TOPIC"},
+        {"word": "20:15", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Notify me about grocery shopping tomorrow morning"],
+      "entities": [
+        {"word": "grocery", "label": "TOPIC"},
+        {"word": "shopping", "label": "TOPIC"},
+        {"word": "tomorrow", "label": "DATE"},
+        {"word": "morning", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Remind me about the gym session on 21.09 at 17:45"],
+      "entities": [
+        {"word": "gym", "label": "TOPIC"},
+        {"word": "session", "label": "TOPIC"},
+        {"word": "21.09", "label": "DATE"},
+        {"word": "17:45", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Remember to water the plants in the evening"],
+      "entities": [
+        {"word": "water", "label": "TOPIC"},
+        {"word": "plants", "label": "TOPIC"},
+        {"word": "evening", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Remind me to send the report by Friday at 14:00"],
+      "entities": [
+        {"word": "send", "label": "TOPIC"},
+        {"word": "report", "label": "TOPIC"},
+        {"word": "Friday", "label": "DATE"},
+        {"word": "14:00", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Set reminder for doctor visit next Tuesday at 10:30"],
+      "entities": [
+        {"word": "doctor", "label": "TOPIC"},
+        {"word": "visit", "label": "TOPIC"},
+        {"word": "next", "label": "DATE"},
+        {"word": "Tuesday", "label": "DATE"},
+        {"word": "10:30", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Remind me to pick up kids at 16:00"],
+      "entities": [
+        {"word": "pick", "label": "TOPIC"},
+        {"word": "up", "label": "TOPIC"},
+        {"word": "kids", "label": "TOPIC"},
+        {"word": "16:00", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Don't forget lunch with Sarah on Wednesday"],
+      "entities": [
+        {"word": "lunch", "label": "TOPIC"},
+        {"word": "with", "label": "TOPIC"},
+        {"word": "Sarah", "label": "TOPIC"},
+        {"word": "Wednesday", "label": "DATE"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Remind me about conference call at 11:00 AM"],
+      "entities": [
+        {"word": "conference", "label": "TOPIC"},
+        {"word": "call", "label": "TOPIC"},
+        {"word": "11:00", "label": "TIME"},
+        {"word": "AM", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Set alarm to take medication at 08:30"],
+      "entities": [
+        {"word": "take", "label": "TOPIC"},
+        {"word": "medication", "label": "TOPIC"},
+        {"word": "08:30", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Remember to submit assignment by Sunday night"],
+      "entities": [
+        {"word": "submit", "label": "TOPIC"},
+        {"word": "assignment", "label": "TOPIC"},
+        {"word": "Sunday", "label": "DATE"},
+        {"word": "night", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Notify me about car service appointment tomorrow at 14:30"],
+      "entities": [
+        {"word": "car", "label": "TOPIC"},
+        {"word": "service", "label": "TOPIC"},
+        {"word": "appointment", "label": "TOPIC"},
+        {"word": "tomorrow", "label": "DATE"},
+        {"word": "14:30", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Remind me to pay bills on 25th"],
+      "entities": [
+        {"word": "pay", "label": "TOPIC"},
+        {"word": "bills", "label": "TOPIC"},
+        {"word": "25th", "label": "DATE"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Set reminder for team meeting at 13:00"],
+      "entities": [
+        {"word": "team", "label": "TOPIC"},
+        {"word": "meeting", "label": "TOPIC"},
+        {"word": "13:00", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Remember birthday party this Saturday at 19:00"],
+      "entities": [
+        {"word": "birthday", "label": "TOPIC"},
+        {"word": "party", "label": "TOPIC"},
+        {"word": "this", "label": "DATE"},
+        {"word": "Saturday", "label": "DATE"},
+        {"word": "19:00", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Remind me to walk the dog at 07:00"],
+      "entities": [
+        {"word": "walk", "label": "TOPIC"},
+        {"word": "dog", "label": "TOPIC"},
+        {"word": "07:00", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Set reminder for yoga class on Thursday at 18:30"],
+      "entities": [
+        {"word": "yoga", "label": "TOPIC"},
+        {"word": "class", "label": "TOPIC"},
+        {"word": "Thursday", "label": "DATE"},
+        {"word": "18:30", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Don't forget to renew subscription next week"],
+      "entities": [
+        {"word": "renew", "label": "TOPIC"},
+        {"word": "subscription", "label": "TOPIC"},
+        {"word": "next", "label": "DATE"},
+        {"word": "week", "label": "DATE"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Remind me about interview at 10:00 on Friday"],
+      "entities": [
+        {"word": "interview", "label": "TOPIC"},
+        {"word": "10:00", "label": "TIME"},
+        {"word": "Friday", "label": "DATE"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Notify me to backup computer tonight"],
+      "entities": [
+        {"word": "backup", "label": "TOPIC"},
+        {"word": "computer", "label": "TOPIC"},
+        {"word": "tonight", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Remember dinner reservation at 20:00"],
+      "entities": [
+        {"word": "dinner", "label": "TOPIC"},
+        {"word": "reservation", "label": "TOPIC"},
+        {"word": "20:00", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Set reminder to feed cat at 06:00"],
+      "entities": [
+        {"word": "feed", "label": "TOPIC"},
+        {"word": "cat", "label": "TOPIC"},
+        {"word": "06:00", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Remind me about presentation tomorrow at 15:30"],
+      "entities": [
+        {"word": "presentation", "label": "TOPIC"},
+        {"word": "tomorrow", "label": "DATE"},
+        {"word": "15:30", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Don't forget parent meeting on 12.10 at 16:45"],
+      "entities": [
+        {"word": "parent", "label": "TOPIC"},
+        {"word": "meeting", "label": "TOPIC"},
+        {"word": "12.10", "label": "DATE"},
+        {"word": "16:45", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Remind me to buy flowers this afternoon"],
+      "entities": [
+        {"word": "buy", "label": "TOPIC"},
+        {"word": "flowers", "label": "TOPIC"},
+        {"word": "this", "label": "DATE"},
+        {"word": "afternoon", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Set alarm for piano lesson at 17:00"],
+      "entities": [
+        {"word": "piano", "label": "TOPIC"},
+        {"word": "lesson", "label": "TOPIC"},
+        {"word": "17:00", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Remember to check emails in 30 minutes"],
+      "entities": [
+        {"word": "check", "label": "TOPIC"},
+        {"word": "emails", "label": "TOPIC"},
+        {"word": "30", "label": "TIME"},
+        {"word": "minutes", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Notify me about client call next Monday at 09:30"],
+      "entities": [
+        {"word": "client", "label": "TOPIC"},
+        {"word": "call", "label": "TOPIC"},
+        {"word": "next", "label": "DATE"},
+        {"word": "Monday", "label": "DATE"},
+        {"word": "09:30", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Remind me to book flight tickets this weekend"],
+      "entities": [
+        {"word": "book", "label": "TOPIC"},
+        {"word": "flight", "label": "TOPIC"},
+        {"word": "tickets", "label": "TOPIC"},
+        {"word": "this", "label": "DATE"},
+        {"word": "weekend", "label": "DATE"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Set reminder for haircut appointment on 05.11 at 11:15"],
+      "entities": [
+        {"word": "haircut", "label": "TOPIC"},
+        {"word": "appointment", "label": "TOPIC"},
+        {"word": "05.11", "label": "DATE"},
+        {"word": "11:15", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Remember to call insurance company tomorrow morning"],
+      "entities": [
+        {"word": "call", "label": "TOPIC"},
+        {"word": "insurance", "label": "TOPIC"},
+        {"word": "company", "label": "TOPIC"},
+        {"word": "tomorrow", "label": "DATE"},
+        {"word": "morning", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Remind me about coffee date with Alex at 16:30"],
+      "entities": [
+        {"word": "coffee", "label": "TOPIC"},
+        {"word": "date", "label": "TOPIC"},
+        {"word": "with", "label": "TOPIC"},
+        {"word": "Alex", "label": "TOPIC"},
+        {"word": "16:30", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Don't forget to charge laptop tonight"],
+      "entities": [
+        {"word": "charge", "label": "TOPIC"},
+        {"word": "laptop", "label": "TOPIC"},
+        {"word": "tonight", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Set reminder for swimming practice on Wednesday at 07:30"],
+      "entities": [
+        {"word": "swimming", "label": "TOPIC"},
+        {"word": "practice", "label": "TOPIC"},
+        {"word": "Wednesday", "label": "DATE"},
+        {"word": "07:30", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Notify me about library book return by Tuesday"],
+      "entities": [
+        {"word": "library", "label": "TOPIC"},
+        {"word": "book", "label": "TOPIC"},
+        {"word": "return", "label": "TOPIC"},
+        {"word": "Tuesday", "label": "DATE"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Remind me to prepare presentation materials tonight"],
+      "entities": [
+        {"word": "prepare", "label": "TOPIC"},
+        {"word": "presentation", "label": "TOPIC"},
+        {"word": "materials", "label": "TOPIC"},
+        {"word": "tonight", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Remember tax appointment on 18.03 at 14:15"],
+      "entities": [
+        {"word": "tax", "label": "TOPIC"},
+        {"word": "appointment", "label": "TOPIC"},
+        {"word": "18.03", "label": "DATE"},
+        {"word": "14:15", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Set alarm to leave for airport at 05:45"],
+      "entities": [
+        {"word": "leave", "label": "TOPIC"},
+        {"word": "for", "label": "TOPIC"},
+        {"word": "airport", "label": "TOPIC"},
+        {"word": "05:45", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Remind me about family dinner this Sunday at 18:00"],
+      "entities": [
+        {"word": "family", "label": "TOPIC"},
+        {"word": "dinner", "label": "TOPIC"},
+        {"word": "this", "label": "DATE"},
+        {"word": "Sunday", "label": "DATE"},
+        {"word": "18:00", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Don't forget to water garden plants tomorrow evening"],
+      "entities": [
+        {"word": "water", "label": "TOPIC"},
+        {"word": "garden", "label": "TOPIC"},
+        {"word": "plants", "label": "TOPIC"},
+        {"word": "tomorrow", "label": "DATE"},
+        {"word": "evening", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Notify me to take vitamins at 08:00"],
+      "entities": [
+        {"word": "take", "label": "TOPIC"},
+        {"word": "vitamins", "label": "TOPIC"},
+        {"word": "08:00", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Set reminder for project deadline on Friday"],
+      "entities": [
+        {"word": "project", "label": "TOPIC"},
+        {"word": "deadline", "label": "TOPIC"},
+        {"word": "Friday", "label": "DATE"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Remind me to clean house this weekend"],
+      "entities": [
+        {"word": "clean", "label": "TOPIC"},
+        {"word": "house", "label": "TOPIC"},
+        {"word": "this", "label": "DATE"},
+        {"word": "weekend", "label": "DATE"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Remember workshop registration deadline tomorrow"],
+      "entities": [
+        {"word": "workshop", "label": "TOPIC"},
+        {"word": "registration", "label": "TOPIC"},
+        {"word": "deadline", "label": "TOPIC"},
+        {"word": "tomorrow", "label": "DATE"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Set alarm for morning jog at 06:30"],
+      "entities": [
+        {"word": "morning", "label": "TIME"},
+        {"word": "jog", "label": "TOPIC"},
+        {"word": "06:30", "label": "TIME"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Remind me about movie night with friends on Saturday"],
+      "entities": [
+        {"word": "movie", "label": "TOPIC"},
+        {"word": "night", "label": "TOPIC"},
+        {"word": "with", "label": "TOPIC"},
+        {"word": "friends", "label": "TOPIC"},
+        {"word": "Saturday", "label": "DATE"}
+      ]
+    },
+    {
+      "tag": "reminder",
+      "pattern": ["Don't forget eye exam next Thursday at 12:30"],
+      "entities": [
+        {"word": "eye", "label": "TOPIC"},
+        {"word": "exam", "label": "TOPIC"},
+        {"word": "next", "label": "DATE"},
+        {"word": "Thursday", "label": "DATE"},
+        {"word": "12:30", "label": "TIME"}
+      ]
+    }
+  ]
+}
